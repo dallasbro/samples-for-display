@@ -1,0 +1,28 @@
+/*
+   
+
+   CPT 422 HTML Final Project
+   Author: Craig Broyles
+   Date: January 30, 2010 
+
+   Filename:         styles.css
+   Supporting Files: leftbox.jpg, rightbox.jpg
+
+*/
+
+
+body             {background: url(woods.jpg) no-repeat fixed right center; margin: 0px; padding: 0px; font-size: 15px; 
+                  font-family: Arial, Helvetica, sans-serif}
+#head            {position: absolute; top: 0px; left: 0px}
+#links           {position: absolute; top: 110px; left: 215px; width: 750px}
+#links ul	 {list-style-type: none; padding: 0px; margin: 5px 0px 0px 5px}
+#links li	 {display: inline; float: left; font-size: 14px; margin-right: 5px; 
+			background: url(rightbox.jpg) no-repeat center right}
+#links a	 {display: block; color: black; text-decoration: none; padding: 10px 15px 10px 15px; 
+			background: url(leftbox.jpg) no-repeat center left}
+#links a:hover	 {color: blue}
+address		{text-align: center; border-top: 2px solid rgb(132,208,195); padding: 10px}
+#content	{width: 750px; position: absolute; top: 180px; left: 15px}
+iframe		{padding: 5px}
+
+
